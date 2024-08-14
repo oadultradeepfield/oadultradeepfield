@@ -30,7 +30,7 @@ Stellar sources presented in raw images from astronomical instruments and telesc
 [View code here](https://github.com/phanuphatsrisukhawasu/star-galaxy-image-classification/blob/main/star-galaxy-classification.ipynb)
 
 <h3>Double perovskite band gap prediction</h3>
-Transitioning from fossil fuel dependency to renewable energy is pivotal. Solar energy, sourced from the sun via photovoltaic cells, emerges as a crucial solution. These cells, typically semiconductor-based with a narrow band gap, play a vital role in solar power harnessing. Double perovskites have garnered attention as potential substitutes for photovoltaic materials.
+Transitioning from fossil fuel dependency to renewable energy is pivotal. Solar power, sourced from the sun via photovoltaic cells, emerges as a crucial solution. These cells, typically semiconductor-based with a narrow band gap, play a vital role in solar power harnessing. Double perovskites have garnered attention as potential substitutes for photovoltaic materials.
 
 <br>This project focuses on developing machine learning models to predict double perovskite band gap energies. Such efforts promise to expedite research by alleviating computational burdens, ultimately advancing solar energy technology.
 
@@ -47,20 +47,14 @@ Transitioning from fossil fuel dependency to renewable energy is pivotal. Solar 
 
 [View code on colab](https://drive.google.com/file/d/1Ev64CCgq-ei3yzQ6JGnacF5upXPceHpX/view?usp=sharing)
 
-<h3>Other mini-projects</h3>
-
-* Created a [web app](https://psrisukhawasu-catsdogsclassifier.streamlit.app) on Streamlit for classifying cats and dogs images using smartphone photos.
-* Examined the efficacy of vision transformer models in classifying chest X-ray images to diagnose lung pneumonia ([view code on colab](https://drive.google.com/file/d/1-sSynBwibYYiZiIWwATkbnXEm2Z5S7Vd/view?usp=sharing)).
-* Developed machine learning models for preliminary risk assessment of lung cancer based on the patience's lifestyle choices and health indicators ([view code here](https://github.com/phanuphatsrisukhawasu/lung-cancer-preliminary-risk-assessment)).
-
 <h2>⚛️ Projects done as a research student during high school</h2>
 
 During high school, I conducted research implementing machine learning and deep learning in particle physics, material sciences, astronomy, and astrophysics under the guidance of the Department of Physics. I highlighted some of them in the below section.
 
 <h3><a href="https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007">DeepHCC: Deep learning model for real-time count rate determination of particles in homemade cloud chamber</a></h3>
-Applied YOLOv5 pre-trained weights to enhance cosmic ray particle detection, achieving over 80% accuracy in count rate determination compared to humans. This research is in the publication for the Journal of Physics: Conference Series, a peer-reviewed, Scopux-indexed journal. 
+Applied YOLOv5 pre-trained weights to enhance cosmic ray particle detection, achieving over 80% accuracy in count rate determination compared to humans. This research is in the publication of the Journal of Physics: Conference Series, a peer-reviewed, Scopux-indexed journal. 
 
-<h3>Enhancing machine learning models towards accelerated discovery of direct band gap perovskites for photovoltaic applications</h3>
+<h3>Enhancing machine learning models towards the accelerated discovery of direct band gap perovskites for photovoltaic applications</h3>
 Implemented TabPFN (transformer for tabular data) to predict the nature band gap of perovskite materials incorporating electron and ionic properties, outperforming traditional models utilizing classical ML and crystallographic features.
 
 <h3>GC-Scan: Classification of Chandra X-ray sources in galactic globular clusters using machine learning</h3>
