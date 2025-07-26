@@ -6,7 +6,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
-import { BookOpen } from "lucide-react";
+import { BookText } from "lucide-react";
 import styles from "./index.module.css";
 
 import ResumePdfUrl from "@site/static/resume/phanuphat_srisukhawasu_resume.pdf";
@@ -29,7 +29,7 @@ function HomepageHeader() {
             to="/blog"
             style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
           >
-            <BookOpen size={18} />
+            <BookText size={18} />
             Read My Blog
           </Link>
           <Link
