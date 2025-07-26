@@ -1,0 +1,136 @@
+\documentclass{phanuphat_srisukhawasu_resume} % Use the custom phanuphat_srisukhawasu_resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+%----------------------------------------------------------------------------------------
+% Contact Information
+%----------------------------------------------------------------------------------------
+
+\name{Phanuphat Srisukhawasu} % Your name
+\address{+65 8090 5619 \\ 
+  Singapore \\
+  \href{mailto:phanuphat.srisukhawasu@gmail.com}{phanuphat.srisukhawasu@gmail.com}
+} 
+\address{\href{https://github.com/oadultradeepfield}{github.com/oadultradeepfield} \\
+  \href{https://linkedin.com/in/phanuphats}{linkedin.com/in/phanuphats} \\
+  \href{https://phanuphats.com}{phanuphats.com}
+} 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% Professional Summary
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Summary}
+
+  {\textbf{Astronomy Olympiad medalist} turned Computer Science major with a \textbf{results-driven mindset} and keen attention to detail. \\ Passionate about building \textbf{complex, scalable systems} and applying technology to create positive impact across disciplines.}  
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Education
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+  \textbf{Bachelor of Computing, Computer Science, National University of Singapore} \hfill {Expected Graduation: Jun 2027}
+  \begin{itemize}
+    \item GPA:\@ 4.79/5.00 (First Class Honours)
+    \item Relevant Coursework: Object-Oriented and Functional Programming (Java), Data Structures and Algorithms (Java)
+  \end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Work Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+  \textbf{Software Engineer Intern} \hfill May 2025 --- Aug 2025 \\
+  Computing for Voluntary Welfare Organisations (CVWO) \hfill \textit{Singapore}
+  \begin{itemize}
+    \item \textbf{Collaborated with a 10-person team} to develop web (React, Redux, Go, Ruby, Rails, PostgreSQL), PWA (Ionic), and mobile (React Native) applications for Active Ageing Centre operations as part of a \textbf{GIC-sponsored program.}
+    \item \textbf{Migrated legacy Ruby on Rails financial reporting module to modern React, Ionic, and Go stack}, individually contributing \textbf{22,000+ insertions and 12,000+ deletions} while upgrading CI/CD pipelines, significantly improving maintainability.
+    \item \textbf{Rewrote account statement querying logic} using concurrent goroutines, \textbf{eliminating critical performance bottlenecks} for processes handling 4,000+ transactions across 800+ client accounts.
+    \item \textbf{Engineered reusable digital consent management system} in Go and React Native, enabling hospitals to contact patients' next of kin with e-signatures, \textbf{eliminating manual processes for 2,000+ patients.}
+  \end{itemize}
+
+  \textbf{Research Student} \hfill May 2022 --- Mar 2024 \\
+  Department of Physics, Faculty of Science, Ramkhamhaeng University \hfill \textit{Bangkok, Thailand}
+  \begin{itemize}
+    \item Examined deep learning solutions for astronomy and space physics problems under Dr. Suttiwat Madlee's guidance.   
+    \item Developed an automated cosmic ray detection system for small cloud chambers using \textbf{YOLO models in PyTorch}, reducing analysis time from \textbf{hours to minutes} while maintaining \textbf{80\% accuracy} (\href{https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007}{doi.org/10.1088/1742-6596/2653/1/012007}).
+    \item Innovated a \textbf{novel X-class solar flare identification} method using custom convolutional autoencoders, achieving \textbf{30\% accuracy improvement} and resolving class imbalance issues (\href{https://essopenarchive.org/users/803138/articles/1189366-enhancing-strong-solar-flare-prediction-using-convolutional-autoencoders-for-anomaly-detection-on-hmi-magnetograms}{doi.org/10.22541/essoar.174431882.20472576/v1}).
+  \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+% Projects
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+  \textbf{Boonchubike} (\href{https://boonchubike.com}{boonchubike.com} $|$ \href{https://phanuphats.com/projects/boonchubike}{phanuphats.com/projects/boonchubike})
+  \begin{itemize}
+    \item Rebuilt a Thai bicycle shop's e-commerce and CMS site with \textbf{Next.js, Go, GCP, and AWS S3} to \textbf{scale for higher traffic.} 
+    \item Designed a \textbf{built-in analytics dashboard} to track popular products, resulting in increased engagement from \textbf{500+ customers.}
+    \item Implemented a \textbf{PDF generator} to automate delivery address label creation, \textbf{reducing manual work and enhancing reliability.}
+  \end{itemize}
+
+  \textbf{MiniMapReduce} (\href{https://github.com/oadultradeepfield/minimapreduce}{github.com/oadultradeepfield/minimapreduce})
+  \begin{itemize}
+    \item Built a lightweight \textbf{MapReduce framework in Java} utilizing \textbf{ForkJoinPool} for \textbf{efficient concurrency on multi-core systems.}
+    \item Developed a \textbf{pluggable API} supporting \textbf{user-defined mappers and reducers}, with examples for data aggregation and word counting, allowing flexible execution of various data transformations within a single JVM environment.
+  \end{itemize}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% Publications
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Publications}
+%
+%   \begin{itemize}
+%     \item \textbf{Srisukhawasu, P.}, Silapasart, A., Limjanon, T., Madlee, S., Samanrak, C., Somnam, T. \textbf{DeepHCC:\@ Deep learning model for real-time count rate determination of particles in homemade cloud chamber.} Journal of Physics: Conference Series, vol. 2653, no. 1, 2023\@. \href{https://doi.org/10.1088/1742-6596/2653/1/012007}{doi.org/10.1088/1742-6596/2653/1/012007}.
+%     \item \textbf{Srisukhawasu, P.}, Somnam, T., Madlee, S. \textbf{Enhancing Strong Solar Flare Prediction Using Convolutional  Autoencoders for Anomaly Detection on HMI Magnetograms.} ESS Open Archive, 2025\@. \href{https://doi.org/10.22541/essoar.174431882.20472576/v1}{doi.org/10.22541/essoar.174431882.20472576/v1}.
+%   \end{itemize}
+%
+% \end{rSection}
+%
+%----------------------------------------------------------------------------------------
+% Skills
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+  \begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l}
+    Programming Languages & Go, Java, Python, SQL, JavaScript, TypeScript, Ruby, C++, C, R, HTML, CSS \\ 
+    Frameworks, Libraries, \& Tools & React, Next.js, Tailwind CSS, Rails, PostgreSQL, Docker, AWS, GCP, Git, PyTorch
+  \end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Achievements
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Achievements}
+
+  \begin{itemize}
+    \item \textbf{International Astronomy Olympiad (IAO) 2021} --- Silver Medal (Top 8\%) 
+    \item \textbf{International Olympiad on Astronomy and Astrophysics (IOAA) 2022/23} --- Bronze Medal
+  \end{itemize}
+
+\end{rSection}
+
+\end{document}

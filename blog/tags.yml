@@ -1,0 +1,14 @@
+courseNotes:
+  label: Course Notes
+  permalink: /course-notes
+  description: Brief notes from courses I have taken at NUS Computing.
+
+astronomy:
+  label: Astronomy and Astrophysics
+  permalink: /astronomy-and-astrophysics
+  description: Projects that reflect my previous interests in astronomy before joining computer science.
+
+studentLife:
+  label: Student Life
+  permalink: /student-life
+  description: My thoughts, experiences, and tips on living in Singapore as an international student that everyone can benefit from in some way
