@@ -1,15 +1,15 @@
-import type { ReactNode } from "react";
-import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import Heading from "@theme/Heading";
-
-import { BookText } from "lucide-react";
-import styles from "./index.module.css";
-
 import ResumePdfUrl from "@site/static/resume/phanuphat_srisukhawasu_resume.pdf";
+import Heading from "@theme/Heading";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
+import { BookText } from "lucide-react";
+import type { ReactNode } from "react";
+import React from "react";
+
+import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -47,7 +47,8 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const { siteConfig } = useDocusaurusContext();
+  useDocusaurusContext();
+
   return (
     <Layout
       title="oadultradeepfield"
