@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npx eslint --fix . && npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "github": {
+    "autoAlias": false
+  }
+}
