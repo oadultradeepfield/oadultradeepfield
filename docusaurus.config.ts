@@ -7,9 +7,9 @@ import remarkMath from "remark-math";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Phanuphat Srisukhawasu",
+  title: "Hi! I'm Phanuphat (Oad).",
   tagline:
-    "Hi! I’m Oad. I am an Astronomy Olympiad Medalist turned Computer Science major. On this website, I share my projects and cool findings I’ve encountered along my learning and building journeys.",
+    "I am an Astronomy Olympiad Medalist turned Computer Science major. On this website, I share my projects and cool findings I’ve encountered along my learning and building journeys.",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

@@ -1,6 +1,5 @@
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import ResumePdfUrl from "@site/static/resume/phanuphat_srisukhawasu_resume.pdf";
 import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
@@ -55,8 +54,14 @@ export default function Home(): ReactNode {
       description="I am an Astronomy Olympiad Medalist turned Computer Science major. Currently, I am focusing on two things I enjoy: building interactive tools that help others learn complex concepts quickly and applying technology to create positive impact in non-technical fields."
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main
+        style={{
+          textAlign: "center",
+          margin: "3rem",
+          fontSize: "1.5rem",
+        }}
+      >
+        🚧 Coming Soon – More updates on the way!
       </main>
     </Layout>
   );
