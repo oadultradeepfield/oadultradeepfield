@@ -21,7 +21,9 @@ To apply for Student Residences with a higher chance of success, you usually nee
 
 Honestly, I panicked a bit after seeing the results. But life goes on, so I started searching on platforms like PropertyGuru.
 
-> **Pro Tips:** There are plenty of property rental platforms out there like PropertyGuru, 99.co, or co-living providers like Homey, Cove, Bespoke Habitat, etc. I think these are generally safer than Facebook groups, though not 100% risk-free, always watch out for scams!
+:::tip Pro Tips
+There are plenty of property rental platforms out there like PropertyGuru, 99.co, or co-living providers like Homey, Cove, Bespoke Habitat, etc. I think these are generally safer than Facebook groups, though not 100% risk-free, always watch out for scams!
+:::
 
 From here, I’ll walk you through what I think is the most strategic way to search for rooms and what I learned along the way, step by step.
 
@@ -36,7 +38,7 @@ From what I know, the main differences between HDBs and Condos are pricing and e
 
 If you have friends to share with, renting an entire HDB unit together, either with or without the landlord, can offer better value. I know a few people who’ve done this.
 
-Personally, I prefer a more independent lifestyle, so I chose to go with a Condo. There are older HDBs where rent can be as low as $500–$600, but the living conditions might not be ideal. For better HDBs or Condos, expect to pay over $1,000 per month.
+Personally, I prefer a more independent lifestyle, so I chose to go with a Condo. There are older HDBs where rent can be as low as 500–600 SGD, but the living conditions might not be ideal. For better HDBs or Condos, expect to pay over 1,000 SGD per month.
 
 There might be other hidden costs as well. Some places offer the rent inclusive of utilities where some do not, you may want to check this first.
 
@@ -44,7 +46,9 @@ There might be other hidden costs as well. Some places offer the rent inclusive 
 
 Once your budget and property type are set, it’s time to look at locations. In my opinion, commuting between home and school shouldn’t take more than 30–40 minutes, though you can adjust that based on your preferences. I scoped out locations using MRT stations from CC19 Botanic Gardens to CC29 HarbourFront, with CC24 Kent Ridge (NUS) in the middle. You can also filter by East-West Line, though I wouldn’t go farther than Clementi.
 
-> **Remark:** During peak periods, some people stay farther out for cheaper rent. Common alternatives include DT5 Beauty World or EW25 Chinese Garden.
+:::info Remark
+During peak periods, some people stay farther out for cheaper rent. Common alternatives include DT5 Beauty World or EW25 Chinese Garden.
+:::
 
 If you do end up far from campus, try to stay close to MRT or bus stops with easy routes to school (more on this later). Also, make sure there’s good food nearby (you don’t want to suffer).
 
@@ -59,7 +63,9 @@ So, convenience to your faculty really matters, especially on rainy days. For ex
 
 This step should be quick. Just be cautious about “cheap” rooms! In Condo units, landlords sometimes partition bigger rooms or lease out the utility room. They’ll often post misleading photos of nicer rooms on PropertyGuru to attract interest. These cheaper rooms might not even have windows, which can feel claustrophobic and stressful.
 
-> **Pro Tips:** Condo listings often include several rooms. Prices are usually listed in the description. Compare photos and prices to see which room corresponds to which rate. This helps you avoid surprises!
+:::tip Pro Tips
+Condo listings often include several rooms. Prices are usually listed in the description. Compare photos and prices to see which room corresponds to which rate. This helps you avoid surprises!
+:::
 
 I recommend screening rooms carefully before messaging agents. Otherwise, you’ll waste time waiting for replies (I’ll dive into this in the next posts). If a listing seems unclear but promising, it’s still worth reaching out for more details.
 
