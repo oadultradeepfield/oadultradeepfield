@@ -12,3 +12,8 @@ studentLife:
   label: Student Life
   permalink: /student-life
   description: My thoughts, experiences, and tips on living in Singapore as an international student that everyone can benefit from in some way
+
+programmingTips:
+  label: Programming Tips
+  permalink: /programming-tips
+  description: Some programming techniques and tips from my challenging and sometimes difficult learning and building journey.
