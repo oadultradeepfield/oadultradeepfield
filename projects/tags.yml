@@ -1,0 +1,29 @@
+# Programming Languages
+typeScript:
+  label: TypeScript
+  permalink: /typescript
+
+go:
+  label: Go
+  permalink: /go
+
+# Libraries and Frameworks
+react:
+  label: React
+  permalink: /react
+
+tailwind:
+  label: Tailwind CSS
+  permalink: /tailwind
+
+tanstack:
+  label: TanStack
+  permalink: /tanstack
+
+shadcn:
+  label: shadcn/ui
+  permalink: shadcn
+
+firebase:
+  label: Firebase
+  permalink: /firebase

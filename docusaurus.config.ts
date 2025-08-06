@@ -68,6 +68,21 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "projects",
+        routeBasePath: "projects",
+        path: "./projects",
+        showReadingTime: true,
+        blogTitle: "Projects",
+        blogDescription: "A list of my projects",
+        postsPerPage: "ALL",
+      },
+    ],
+  ],
+
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
@@ -88,7 +103,7 @@ const config: Config = {
         src: "img/oadultradeepfield.jpg",
       },
       items: [
-        { to: "/project", label: "Project", position: "left" },
+        { to: "/projects", label: "Projects", position: "left" },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/oadultradeepfield",
@@ -104,8 +119,8 @@ const config: Config = {
           title: "Quick Links",
           items: [
             {
-              label: "Project",
-              to: "/project",
+              label: "Projects",
+              to: "/projects",
             },
             {
               label: "Blog",
