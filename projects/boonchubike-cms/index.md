@@ -5,7 +5,7 @@ authors: phanuphat
 tags: [typeScript, react, tailwind, firebase, tanstack, shadcn]
 ---
 
-In this project, I created a client management system for Boonchubike, a bicycle store in Thailand. The problem was that the store is growing massively over the past 30 years, and they have a lot of customers both new and returning. <!-- truncate --> The store owner is not a tech-guy. He has been using **500+ pages word document (as of current version)** to print the address label on packages when delivering across country. Clearly, this is not an ideal solution. It requires a lot of manual works and is easily prone to errors.
+In this project, I created a client management system for Boonchubike, a bicycle store in Thailand. The problem was that the store is growing massively over the past 30 years, and they have a lot of customers both new and returning. <!-- truncate --> The store owner is not a tech-guy. He has been using **800+ pages word document (as of current version)** to print the address label on packages when delivering across country. Clearly, this is not an ideal solution. It requires a lot of manual works and is easily prone to errors.
 
 ![Thumbnail](./thumbnail.webp)
 
