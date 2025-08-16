@@ -51,7 +51,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="oadultradeepfield"
-      description="I am an Astronomy Olympiad Medalist turned Computer Science major. Currently, I am focusing on two things I enjoy: building interactive tools that help others learn complex concepts quickly and applying technology to create positive impact in non-technical fields."
+      description="I am an Astronomy Olympiad Medalist turned Computer Science major at NUS. While I first pursued AI, I later found myself drawn to areas like networking, compilers, and parallel computing. Beyond academics, I love building simple yet powerful software that makes a positive impact across disciplines :)"
     >
       <HomepageHeader />
       <main
