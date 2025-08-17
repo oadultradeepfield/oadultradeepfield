@@ -27,3 +27,11 @@ shadcn:
 firebase:
   label: Firebase
   permalink: /firebase
+
+python:
+  label: Python
+  permalink: /python
+
+github:
+  label: GitHub
+  permalink: /github
