@@ -7,12 +7,13 @@ import clsx from "clsx";
 import { BookText } from "lucide-react";
 import type { ReactNode } from "react";
 import React from "react";
+
 import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
 
-  const generateStarProps = (index: number) => {
+  const generateStarProps = () => {
     const tailLength = (Math.random() * (7.5 - 5) + 5).toFixed(2); // 5em to 7.5em
     const topOffset = (Math.random() * 100).toFixed(2); // 0% to 100% within hero banner
     const fallDuration = (Math.random() * (12 - 6) + 6).toFixed(1); // 6s to 12s
@@ -28,7 +29,7 @@ function HomepageHeader() {
 
   // Generate 20 stars (reduced from 50)
   const stars = Array.from({ length: 20 }, (_, index) => (
-    <div key={index} className={styles.star} style={generateStarProps(index)} />
+    <div key={index} className={styles.star} style={generateStarProps()} />
   ));
 
   return (
