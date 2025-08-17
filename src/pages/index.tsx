@@ -7,13 +7,44 @@ import clsx from "clsx";
 import { BookText } from "lucide-react";
 import type { ReactNode } from "react";
 import React from "react";
-
 import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
+  const generateStarProps = (index: number) => {
+    const tailLength = (Math.random() * (7.5 - 5) + 5).toFixed(2); // 5em to 7.5em
+    const topOffset = (Math.random() * 100).toFixed(2); // 0% to 100% within hero banner
+    const fallDuration = (Math.random() * (12 - 6) + 6).toFixed(1); // 6s to 12s
+    const fallDelay = (Math.random() * 10).toFixed(1); // 0s to 10s
+
+    return {
+      "--star-tail-length": `${tailLength}em`,
+      "--top-offset": `${topOffset}%`,
+      "--fall-duration": `${fallDuration}s`,
+      "--fall-delay": `${fallDelay}s`,
+    } as React.CSSProperties;
+  };
+
+  // Generate 20 stars (reduced from 50)
+  const stars = Array.from({ length: 20 }, (_, index) => (
+    <div key={index} className={styles.star} style={generateStarProps(index)} />
+  ));
+
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header
+      className={clsx("hero hero--primary", styles.heroBanner)}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        flexGrow: 1,
+        paddingTop: "4rem",
+        paddingBottom: "4rem",
+      }}
+    >
+      {/* Star Animation Background */}
+      <div className={styles.stars}>{stars}</div>
+
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -47,7 +78,6 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   useDocusaurusContext();
-
   return (
     <Layout
       title="oadultradeepfield"
@@ -57,12 +87,9 @@ export default function Home(): ReactNode {
       <main
         style={{
           textAlign: "center",
-          margin: "3rem",
           fontSize: "1.5rem",
         }}
-      >
-        🚧 Coming Soon – More updates on the way!
-      </main>
+      ></main>
     </Layout>
   );
 }
