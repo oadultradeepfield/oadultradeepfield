@@ -35,3 +35,15 @@ python:
 github:
   label: GitHub
   permalink: /github
+
+cpp:
+  label: C++
+  permalink: cpp
+
+opencv:
+  label: OpenCV
+  permalink: opencv
+
+openmp:
+  label: OpenMP
+  permalink: openmp
