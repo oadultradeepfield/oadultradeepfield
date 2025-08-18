@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1755511854.28735 "phanuphat_srisukhawasu_resume.tex" "phanuphat_srisukhawasu_resume.pdf" "phanuphat_srisukhawasu_resume" 1755511854.80284 0
+["pdflatex"] 1755511832.14951 "phanuphat_srisukhawasu_resume.tex" "phanuphat_srisukhawasu_resume.pdf" "phanuphat_srisukhawasu_resume" 1755511832.65068 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1561498483 3345 f5bff336afd6959239b79815a9c623d1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lato/a_vc7epu.enc" 1561498483 2837 71470f4f1f9e810bb7f97954be46f052 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lato/a_y72t7m.enc" 1561498483 2827 edb6577ce87a761a903cb37772e591dd ""
@@ -76,10 +76,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733586452.8324 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733586370 8221428 4acbd32f220ce9b098a0b44d3eb23d81 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "phanuphat_srisukhawasu_resume.aux" 1755511854.75111 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "phanuphat_srisukhawasu_resume.aux" 1755511832.59604 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
   "phanuphat_srisukhawasu_resume.cls" 1748155606.17625 4885 727ad082cbc0f3b3b786ae41d69abbbe ""
-  "phanuphat_srisukhawasu_resume.out" 1755511854.62231 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "phanuphat_srisukhawasu_resume.tex" 1755511846.07562 8583 2c6f184e4ee4d75cd7c65fd003b620d7 ""
+  "phanuphat_srisukhawasu_resume.out" 1755511832.46346 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "phanuphat_srisukhawasu_resume.tex" 1755511831.29702 8571 94426bdd3bd753965815ee614bdff15e ""
   (generated)
   "phanuphat_srisukhawasu_resume.aux"
   "phanuphat_srisukhawasu_resume.log"
