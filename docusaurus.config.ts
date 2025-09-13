@@ -9,7 +9,7 @@ import remarkMath from "remark-math";
 const config: Config = {
   title: "Hi! I'm Phanuphat (Oad).",
   tagline:
-    "I am an Astronomy Olympiad Medalist turned Computer Science major at NUS. While I first pursued AI, I later found myself drawn to areas like networking, compilers, and parallel computing. Beyond academics, I love building simple yet powerful software that makes a positive impact across disciplines :)",
+    "I am an Astronomy Olympiad medalist turned Computer Science major at NUS. I began by pursuing AI but later discovered a stronger interest in algorithms, networking, and parallel computing. Beyond academics, I enjoy creating simple yet powerful software that helps people learn more effectively, think more clearly, and make a positive impact across disciplines :)",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
