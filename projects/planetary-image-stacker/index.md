@@ -3,6 +3,7 @@ slug: planetary-image-stacker
 title: Planetary Image Stacker
 authors: phanuphat
 tags: [ cpp, opencv, openmp ]
+date: 2025-08-17
 ---
 
 In this project, I built a C++ program that can process video footage of planets moving through a telescope and then

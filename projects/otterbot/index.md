@@ -2,7 +2,8 @@
 slug: otterbot
 title: OtterBot
 authors: phanuphat
-tags: [python, github]
+tags: [ python, github ]
+date: 2025-08-18
 ---
 
 Personally, my effective productivity system is when I wake up and I know what I need to do that day. During university,

@@ -2,7 +2,8 @@
 slug: boonchubike-cms
 title: Boonchubike CMS
 authors: phanuphat
-tags: [typeScript, react, tailwind, firebase, tanstack, shadcn]
+tags: [ typeScript, react, tailwind, firebase, tanstack, shadcn ]
+date: 2025-08-08
 ---
 
 In this project, I created a client management system for Boonchubike, a bicycle store in Thailand. The problem was that

@@ -43,23 +43,23 @@ these sets represent the elements on the same level.
 
 1. Choose $f:\mathbb{R}\to\mathbb{R}$ be a function by defining $f(x)=-x$.
 2. Prove $f$ is injective.
-   1. Let $x_1,x_2\in\mathbb{R}$ such that $f(x_1)=f(x_2)$.
-   2. $-x_1=-x_2$ by the definition of $f$.
-   3. $x_1=x_2$ by basic algebra.
-   4. Hence, $f$ is injective.
+    1. Let $x_1,x_2\in\mathbb{R}$ such that $f(x_1)=f(x_2)$.
+    2. $-x_1=-x_2$ by the definition of $f$.
+    3. $x_1=x_2$ by basic algebra.
+    4. Hence, $f$ is injective.
 
 3. Prove $f$ is surjective.
-   1. Let $y\in R$.
-   2. Choose $x=-y$, then we have $f(x)=-(-y)=y$, hence $f$ is surjective.
+    1. Let $y\in R$.
+    2. Choose $x=-y$, then we have $f(x)=-(-y)=y$, hence $f$ is surjective.
 
 4. From 2. and 3., we conclude that $f$ is a bijection.
 5. ($\implies$) Let $x,y\in\mathbb{R}$ such that $x\leq y$.
-   1. $-x\geq-y$ by basic algebra.
-   2. $f(x)\geq f(y)$ by the definition of $f$.
+    1. $-x\geq-y$ by basic algebra.
+    2. $f(x)\geq f(y)$ by the definition of $f$.
 
 6. ($\impliedby$) Let $x,y\in\mathbb{R}$ such that $f(x)\geq f(y)$.
-   1. $-x\geq-y$ by the definition of $f$.
-   2. $x \leq y$ by basic algebra.
+    1. $-x\geq-y$ by the definition of $f$.
+    2. $x \leq y$ by basic algebra.
 
 7. From 5. and 6., we have $x\leq y\iff f(x)\geq f(y)$. Therefore, $(\mathbb{R},\leq)\sim (\mathbb{R},\geq)$.
 
@@ -94,16 +94,16 @@ recursively handle the remaining cases as follows:
 1. Define a bijective function:
    $f(x) = 2x\ \text{if}\ x = \frac{1}{2^n} \text{ for some } n \in \mathbb{Z}^+, \ \text{otherwise} \ f(x) = x.$
 2. Prove that $f$ is injective:
-   1. Let $f(x_1)=f(x_2)$ for some $x_1,x_2\in (0,1)$.
-   2. If $f(x_1)=f(x_2)=1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $x_1=x_2=1/2^{k+1}$.
-   3. If $f(x_1)=f(x_2)\neq 1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $x_1=x_2=1$.
-   4. In both cases 2. and 3., $f$ is injective.
+    1. Let $f(x_1)=f(x_2)$ for some $x_1,x_2\in (0,1)$.
+    2. If $f(x_1)=f(x_2)=1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $x_1=x_2=1/2^{k+1}$.
+    3. If $f(x_1)=f(x_2)\neq 1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $x_1=x_2=1$.
+    4. In both cases 2. and 3., $f$ is injective.
 
 3. Prove that $f$ is surjective:
-   1. Let $y\in(0, 1]$.
-   2. If $y=1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $y=f(1/2^{k+1})$.
-   3. If $y\neq 1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $y=f(y)$.
-   4. In both cases 3. and 4., there exists $x$ such that $f(x)=y$, hence $f$ is surjective.
+    1. Let $y\in(0, 1]$.
+    2. If $y=1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $y=f(1/2^{k+1})$.
+    3. If $y\neq 1/2^k, \exists k\in \mathbb{Z}_{\geq 0}$, then $y=f(y)$.
+    4. In both cases 3. and 4., there exists $x$ such that $f(x)=y$, hence $f$ is surjective.
 
 4. Therefore, $f$ is bijective since it is both injective and surjective.
 
@@ -120,18 +120,18 @@ recursively handle the remaining cases as follows:
 1. Let $P(n) \equiv (\text{Even}(F_n) \iff \text{Even}(F_{n+3}))$ for all $n \in \mathbb{N}$.
 
 2. (Basis Step)
-   1. $F_3 = F_2 + F_1 = (F_1 + F_0) + F_1 = (1 + 0) + 1 = 2$ by the definition of the Fibonacci sequence.
-   2. $P(0) \equiv (\text{Even}(F_0) \iff \text{Even}(F_3)) \equiv (\text{Even}(0) \iff \text{Even}(2))$ is true.
+    1. $F_3 = F_2 + F_1 = (F_1 + F_0) + F_1 = (1 + 0) + 1 = 2$ by the definition of the Fibonacci sequence.
+    2. $P(0) \equiv (\text{Even}(F_0) \iff \text{Even}(F_3)) \equiv (\text{Even}(0) \iff \text{Even}(2))$ is true.
 
 3. (Inductive Step)
-   1. Suppose $P(k)$ is true for some $k \in \mathbb{N}$, i.e., $\text{Even}(F_k) \iff \text{Even}(F_{k+3})$.
-   2. Inductive Hypothesis: Assume $P(0) \land P(1) \land P(2) \land \cdots \land P(k)$ are true.
-   3. By the definition of the Fibonacci sequence, $F_{k+1} = F_k + F_{k-1}$.
-   4. From the definition, $\text{Even}(F_{k+1}) \iff (\text{Even}(F_k) \iff \text{Even}(F_{k-1}))$ by Fact 1.
-   5. By the inductive hypothesis, $\text{Even}(F_k) \iff \text{Even}(F_{k+3})$,
-      and $\text{Even}(F_{k-1}) \iff \text{Even}(F_{k+2})$.
-   6. Thus, $\text{Even}(F_{k+1}) \iff (\text{Even}(F_{k+3}) \iff \text{Even}(F_{k+2}))$.
-   7. By the definition of the Fibonacci sequence, $\text{Even}(F_{k+1}) \iff \text{Even}(F_{k+4})$.
+    1. Suppose $P(k)$ is true for some $k \in \mathbb{N}$, i.e., $\text{Even}(F_k) \iff \text{Even}(F_{k+3})$.
+    2. Inductive Hypothesis: Assume $P(0) \land P(1) \land P(2) \land \cdots \land P(k)$ are true.
+    3. By the definition of the Fibonacci sequence, $F_{k+1} = F_k + F_{k-1}$.
+    4. From the definition, $\text{Even}(F_{k+1}) \iff (\text{Even}(F_k) \iff \text{Even}(F_{k-1}))$ by Fact 1.
+    5. By the inductive hypothesis, $\text{Even}(F_k) \iff \text{Even}(F_{k+3})$,
+       and $\text{Even}(F_{k-1}) \iff \text{Even}(F_{k+2})$.
+    6. Thus, $\text{Even}(F_{k+1}) \iff (\text{Even}(F_{k+3}) \iff \text{Even}(F_{k+2}))$.
+    7. By the definition of the Fibonacci sequence, $\text{Even}(F_{k+1}) \iff \text{Even}(F_{k+4})$.
 
 4. Hence, $P(k+1)$ is true.
 5. Therefore, by Strong Mathematical Induction, $\forall n \in \mathbb{N}, P(n)$ is true.
@@ -340,7 +340,8 @@ Given a set $A$ with two elements, how many relations on $A$ are not transitive?
 
 ### AY2022/23 Semester 1 Problem 15
 
-Given the recurrence relation $a_n=5n+a_{n-1}$ with initial value $a_0 = 4$, what is the value of $a_{20}$? **(Answer: 1054)**
+Given the recurrence relation $a_n=5n+a_{n-1}$ with initial value $a_0 = 4$, what is the value of $a_{20}$? **(Answer:
+1054)**
 
 ### AY2022/23 Semester 2 Problem 6
 
