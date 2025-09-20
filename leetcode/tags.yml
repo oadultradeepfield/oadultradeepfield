@@ -1,0 +1,35 @@
+tree:
+  label: Tree
+  permalink: /tree
+
+dfs:
+  label: Depth-First Search
+  permalink: /dfs
+
+bfs:
+  label: Breadth-First Search
+  permalink: /bfs
+
+binary-tree:
+  label: Binary Tree
+  permalink: /binary-tree
+
+dp:
+  label: Dynamic Programming
+  permalink: /dp
+
+recursion:
+  label: Recursion
+  permalink: /recursion
+
+string:
+  label: String
+  permalink: /string
+
+array:
+  label: Array
+  permalink: /array
+
+binary-search:
+  label: Binary Search
+  permalink: /binary-search
