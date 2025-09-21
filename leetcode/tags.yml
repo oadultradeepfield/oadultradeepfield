@@ -33,3 +33,11 @@ array:
 binary-search:
   label: Binary Search
   permalink: /binary-search
+
+graph:
+  label: Graph
+  permalink: /graph
+
+biconnected-component:
+  label: Biconnected Component
+  permalink: /biconnected-component
