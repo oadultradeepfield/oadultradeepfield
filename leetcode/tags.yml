@@ -41,3 +41,15 @@ graph:
 biconnected-component:
   label: Biconnected Component
   permalink: /biconnected-component
+
+stack:
+  label: Stack
+  permalink: /stack
+
+greedy:
+  label: Greedy
+  permalink: /greedy
+
+monotonic-stack:
+  label: Monotonic Stack
+  permalink: monotonic-stack
