@@ -7,7 +7,7 @@ tags: [ it2900, courseNotes ]
 
 The theme of this week’s lecture is about _Communicate to Influence_. It highlights how clarity, credibility, and empathy in communication enable us to inspire action, shape perspectives, and drive meaningful change. <!--truncate--> If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/blog/tags/it2900) where I share my responses to the weekly assignments of this course.
 
-The previous week’s blog post was titled [“What Should Have Been Done Differently?”.](/blog/it2900-week5-reflections/) You can take a look if you later find this article interesting.
+The previous week’s blog post was titled [“What Should Have Been Done Differently?”.](/blog/it2900-week6-reflections/) You can take a look if you later find this article interesting.
 
 ## Personal Takeaways
 
