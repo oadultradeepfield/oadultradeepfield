@@ -17,6 +17,10 @@ automatically shown to me in the morning. This is how **OtterBot** was born. <!-
 <figcaption>The GitHub repository for forking to make your own bot is available [here](https://github.com/oadultradeepfield/otterbot)</figcaption>
 </figure>
 
+:::info
+**Note (effective 27 Oct):** The bot workflow was changed to run every 30 minutes. The previous _"magic minute"_ workaround to avoid scheduler conflicts is no longer used. The bot still sends the daily tasks message, but it now checks Google Sheets every 30 minutes and will resend if tasks change. A hashed copy of each sent message is saved and used to verify whether a resend is needed.
+:::
+
 ## Why Telegram Bot?
 
 When deciding on what kind of product or platform to build, I usually think about how I want to use it the most. It
