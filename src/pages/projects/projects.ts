@@ -12,54 +12,46 @@ export interface Project {
 
 export const projects: Project[] = [
 	{
-		name: 'Devaradise.com',
-		description: 'A blog that sharing web development resources and tutorials',
-		demoLink: 'https://devaradise.com',
-		tags: ['Blog']
+		...(await getRepositoryDetails('oadultradeepfield/psa-codesprint-2025')),
+		name: 'PSA CodeSprint 2025',
+		demoLink: 'https://oadultradeepfield.github.io/psa-codesprint-2025/'
 	},
 	{
-		name: 'Sellercraft App',
-		description: 'An Ecommerce omnichannel platform in Southeast Asia',
-		demoLink: 'https://sellercraft.co',
-		demoLinkRel: 'nofollow noopener noreferrer',
-		tags: ['ECommerce', 'Saas']
+		...(await getRepositoryDetails('git-mastery/exercises')),
+		name: 'Git Mastery Exercises',
+		description: 'My first open-source contribution!',
+		demoLink: 'https://git-mastery.github.io/exercises/'
 	},
 	{
-		name: 'Gaji.id App',
-		description: 'Payroll and HR Management Information System',
-		demoLink: 'https://sellercraft.co',
-		demoLinkRel: 'nofollow noopener noreferrer',
-		tags: ['HRIS', 'Saas']
+		...(await getRepositoryDetails('oadultradeepfield/planetary-image-stacker')),
+		name: 'Planetary Image Stacker',
+		postLink: '/planetary-image-stacker',
+		demoLink: 'https://github.com/oadultradeepfield/planetary-image-stacker'
 	},
 	{
-		...(await getRepositoryDetails('devaradise/paradise-ui')),
-		name: 'Paradise UI',
-		demoLink: 'https://paradise-ui.com',
-		postLink: 'https://devaradise.com/how-i-build-paradise-ui-react-component-library/',
-		tags: ['React', 'UI Library']
+		name: 'Boonchubike CMS',
+		description: 'Client management system for Boonchubike, a bicycle store in Thailand.',
+		postLink: '/boonchubike-cms'
 	},
 	{
-		...(await getRepositoryDetails('syakirurahman/react-lab')),
-		name: 'React Lab',
-		demoLink: 'https://devaradise.com/lab/react/',
-		tags: ['React']
+		...(await getRepositoryDetails('oadultradeepfield/otterbot')),
+		name: 'OtterBot',
+		postLink: '/otterbot',
+		demoLink: 'https://phanuphats.com/otterbot'
 	},
 	{
-		...(await getRepositoryDetails('syakirurahman/pokemon-catcher')),
-		name: 'Pokemon Catcher',
-		demoLink: 'https://pokemon-catcher-18636.web.app/',
-		tags: ['Hobby']
+		...(await getRepositoryDetails('oadultradeepfield/thai-address-api')),
+		name: 'Thai Address API',
+		demoLink: 'https://github.com/oadultradeepfield/thai-address-api'
 	},
 	{
-		...(await getRepositoryDetails('syakirurahman/movie-nominations')),
-		name: 'Movie Nominations',
-		demoLink: 'https://movie-nominations-c21c3.web.app/',
-		tags: ['Hobby']
+		...(await getRepositoryDetails('oadultradeepfield/redactkit-on-device-model')),
+		name: 'RedactKit On-Device Model',
+		demoLink: 'https://devpost.com/software/redactkit'
 	},
 	{
-		...(await getRepositoryDetails('syakirurahman/organization-tree')),
-		name: 'Organization tree',
-		demoLink: 'https://organization-tree-2a446.web.app/',
-		tags: ['Hobby']
+		...(await getRepositoryDetails('oadultradeepfield/cs2103-pe-toolkit')),
+		name: 'CS2103/T PE Toolkit',
+		demoLink: 'https://pypi.org/project/pe-toolkit/'
 	}
 ];

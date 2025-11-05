@@ -7,10 +7,11 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 import partytown from '@astrojs/partytown';
+import mermaid from 'astro-mermaid';
 
 export default defineConfig({
 	site: 'https://phanuphats.com',
-	integrations: [mdx(), sitemap(), tailwind(), partytown()],
+	integrations: [mdx(), sitemap(), tailwind(), partytown(), mermaid()],
 	markdown: {
 		remarkPlugins: [remarkMath],
 		extendDefaultPlugins: true,

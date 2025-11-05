@@ -1,5 +1,5 @@
 {
-  "name": "devolio",
+  "name": "oadultradeepfield",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -18,7 +18,9 @@
     "@astrojs/sitemap": "^3.3.0",
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^5.7.4",
+    "astro-mermaid": "^1.1.0",
     "katex": "^0.16.25",
+    "mermaid": "^11.12.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "sharp": "^0.33.5",
