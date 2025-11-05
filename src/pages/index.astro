@@ -12,10 +12,10 @@ import PostItem from '../components/PostItem.astro';
 
 type BlogPost = CollectionEntry<'blog'>;
 
-const top6Projects = projects.slice(0, 6);
+const top3Projects = projects.slice(0, 3);
 const posts = (await getCollection('blog'))
 	.sort((a: BlogPost, b: BlogPost) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-	.slice(0, 5);
+	.slice(0, 4);
 ---
 
 <BaseLayout title={SITE_TITLE + ' - ' + SITE_TAGLINE} description={SITE_DESCRIPTION}>
@@ -54,7 +54,7 @@ const posts = (await getCollection('blog'))
 					<h2 class='text-lg font-bold mb-3'>My Projects</h2>
 					<a href='/projects/' class='inline-block py-2 underline dark:prose-invert'>All projects &raquo;</a>
 				</div>
-				<ProjectList projects={top6Projects} />
+				<ProjectList projects={top3Projects} />
 			</div>
 		</main>
 	</div>
