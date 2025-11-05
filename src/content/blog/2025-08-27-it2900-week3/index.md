@@ -9,11 +9,11 @@ pubDate: 2025-08-27
 The theme of this week's lecture is about _How We Impact Others_. Leadership is not only about making decisions or
 setting direction but also about how our words, actions, and behaviors shape the people around us. This perspective
 helped me reflect more deeply on the ripple effects of leadership. <!-- truncate --> If you are new, this is a
-continuation of the [IT2900 Weekly Reflection](/blog/tags/it2900) series, where I share my responses to the weekly
+continuation of the [IT2900 Weekly Reflection](/tags/it2900) series, where I share my responses to the weekly
 assignments for this course.
 
 The previous week's blog post was
-titled ["Successful Leaders Guide the Team with Strategy and Compassion."](/blog/it2900-week2-reflections) You can take
+titled ["Successful Leaders Guide the Team with Strategy and Compassion."](/it2900-week2-reflections) You can take
 a look
 if you later find this article interesting.
 

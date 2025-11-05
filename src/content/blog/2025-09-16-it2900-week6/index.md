@@ -8,11 +8,11 @@ pubDate: 2025-09-16
 
 The theme of this week’s lecture is about _Psychological Safety_. It highlights how trust, empathy, and understanding
 within a team create an environment where people feel safe to take risks and learn from mistakes. <!--truncate--> If you
-are new, this is a continuation of the [IT2900 Weekly Reflection series](/blog/tags/it2900), where I share my responses
+are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900), where I share my responses
 to the weekly assignments of this course.
 
 The previous week’s blog post was
-titled [“You Need to Know ‘Why,’ but Don’t Ask Directly”.](/blog/it2900-week5-reflections/) You
+titled [“You Need to Know ‘Why,’ but Don’t Ask Directly”.](/it2900-week5-reflections/) You
 can take a look if you later find this article interesting.
 
 ## Personal Takeaways

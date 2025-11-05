@@ -10,10 +10,10 @@ The theme of this week’s lecture is about _Perspective Taking & Empathy_. Ther
 similarities between empathy, sympathy, and compassion. While sympathy focuses on feeling sorrow for other’s misfortune,
 empathy is about feeling what other person feels from their perspective. Compassion takes it further by introducing
 desire to relieve those suffering. <!--truncate--> If you are new, this is a continuation of
-the [IT2900 Weekly Reflection series](/blog/tags/it2900), where I share my responses to the weekly assignments of this
+the [IT2900 Weekly Reflection series](/tags/it2900), where I share my responses to the weekly assignments of this
 course.
 
-The previous week’s blog post was titled [“Your Feet Don’t Fit in Others’ Shoes”.](/blog/it2900-week4-reflections/) You
+The previous week’s blog post was titled [“Your Feet Don’t Fit in Others’ Shoes”.](/it2900-week4-reflections/) You
 can take a look if you later find this article interesting.
 
 ## Personal Takeaways

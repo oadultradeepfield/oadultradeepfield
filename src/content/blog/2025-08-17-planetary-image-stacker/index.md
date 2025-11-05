@@ -257,5 +257,5 @@ disappearing_.
 To all who are reading to this point, if you have some time, _it is always good and refreshing to work on a project that
 you really care about._
 
-Thanks for reading, you can explore my [blog](/blog) if you want to learn more about
+Thanks for reading, you can explore my [posts](/posts) if you want to learn more about
 me or my work.

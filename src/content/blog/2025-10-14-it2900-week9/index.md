@@ -6,9 +6,9 @@ description: "Reflections on coaching, mentoring, and counselling techniques for
 pubDate: 2025-10-14
 ---
 
-The theme of this week’s lecture is about _Developing Others_. It focuses on practical approaches to help others grow: distinguishing coaching, mentoring, and counselling; applying the GROW model (Goal, Reality, Options, Will); and choosing when to use directive versus non‑directive support to build capability and psychological safety. <!--truncate--> If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/blog/tags/it2900) where I share my responses to the weekly assignments of this course.
+The theme of this week’s lecture is about _Developing Others_. It focuses on practical approaches to help others grow: distinguishing coaching, mentoring, and counselling; applying the GROW model (Goal, Reality, Options, Will); and choosing when to use directive versus non‑directive support to build capability and psychological safety. <!--truncate--> If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900) where I share my responses to the weekly assignments of this course.
 
-The previous week’s blog post was titled ["Do More for Yourself and What Matters"](/blog/it2900-week8-reflections/) You can take a look if you later find this article interesting.
+The previous week’s blog post was titled ["Do More for Yourself and What Matters"](/it2900-week8-reflections/) You can take a look if you later find this article interesting.
 
 ## Personal Takeaways
 

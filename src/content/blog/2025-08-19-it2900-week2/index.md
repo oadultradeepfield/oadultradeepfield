@@ -9,13 +9,13 @@ pubDate: 2025-08-19
 The theme of this week's lecture is about _Leadership and Mindset_. Additionally, we had the opportunity to listen to
 some
 inspiring stories from _Mr. Heng Swee Keat_, the former Deputy Prime Minister of Singapore. If you are new, this is a
-continuation of the [IT2900 Weekly Reflection](/blog/tags/it2900) series, where I shared my answers to the weekly
+continuation of the [IT2900 Weekly Reflection](/tags/it2900) series, where I shared my answers to the weekly
 assignment
 of this
 course. <!-- truncate -->
 
 The previous week's blog post was
-titled ["Learn About Yourself Before Learning How to Be a Leader."](/blog/it2900-week1-reflections) You can take a look
+titled ["Learn About Yourself Before Learning How to Be a Leader."](/it2900-week1-reflections) You can take a look
 if you later find this article interesting.
 
 ## What was most insightful / thought provoking / inspiring for you from today's lecture? Explain.

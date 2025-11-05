@@ -11,11 +11,11 @@ leadership also requires the ability to recognize, understand, and manage emotio
 Emotional intelligence shapes how leaders connect with their teams, build trust, and create an environment where people
 feel valued. Reflecting on this theme made me realize how much impact empathy and self-awareness have on the quality of
 leadership. <!-- truncate --> If you are new, this is a continuation of
-the [IT2900 Weekly Reflection](/blog/tags/it2900) series, where I share my responses to the weekly assignments for this
+the [IT2900 Weekly Reflection](/tags/it2900) series, where I share my responses to the weekly assignments for this
 course.
 
 The previous week's blog post was
-titled ["SCARF Model: Leading with Positive Impact."](/blog/it2900-week3-reflections) You can take a look
+titled ["SCARF Model: Leading with Positive Impact."](/it2900-week3-reflections) You can take a look
 if you later find this article interesting.
 
 ## Personal Takeaways
