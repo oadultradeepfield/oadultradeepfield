@@ -8,7 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "eslint . --ext .js,.ts,.jsx,.tsx,.astro"
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx,.astro",
+    "vercel-build": "pnpm run lint && pnpm run build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
