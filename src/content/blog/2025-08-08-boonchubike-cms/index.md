@@ -1,7 +1,7 @@
 ---
 slug: boonchubike-cms
 title: "Boonchubike CMS"
-tags: [ "TypeScript", "React", "Tailwind", "Firebase", "TanStack", "shadcn" ]
+tags: [ "TypeScript", "React" ]
 description: "Client management system for Boonchubike, a bicycle store in Thailand."
 pubDate: 2025-08-08
 ---
