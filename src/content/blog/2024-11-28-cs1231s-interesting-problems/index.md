@@ -391,8 +391,6 @@ probability that the second ball is red given that the first ball is red? **(Ans
 
 ## Final Thoughts
 
-I definitely learned a lot from these problems and feel more confident about the exam. You can also check out the cheat
-sheet I created in this [blog](https://phanuphats.com/posts/2024-11-19-cs1231s-cheat-sheet). It only includes the
-information I usually misunderstand or often forget. If you’re currently taking or planning to take this course, make
+I definitely learned a lot from these problems and feel more confident about the exam. If you’re currently taking or planning to take this course, make
 sure you understand all the concepts. Tutorials are also great for clarifying uncertainties. Try solving problems before
 looking at the solutions as you’ll learn so much more that way. All the best! :)

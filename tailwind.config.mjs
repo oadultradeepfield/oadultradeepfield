@@ -1,3 +1,5 @@
+import typography from '@tailwindcss/typography';
+
 /** @type {import('tailwindcss').Config} */
 export default {
 	darkMode: 'selector',
@@ -14,11 +16,11 @@ export default {
 			typography: {
 				DEFAULT: {
 					css: {
-						maxWidth: '100%' // add required value here
+						maxWidth: '100%' // required value
 					}
 				}
 			}
 		}
 	},
-	plugins: [require('@tailwindcss/typography')]
+	plugins: [typography]
 };
