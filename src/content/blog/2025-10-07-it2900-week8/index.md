@@ -6,7 +6,7 @@ description: "Reflections on motivation, self-determination theory, and strategi
 pubDate: 2025-10-07
 ---
 
-The theme of this week’s lecture is about _How We Are Differently Motivated_. It highlights how people’s sources of motivation vary and how understanding these differences can help us sustain our drive in both personal and professional contexts. <!--truncate--> If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900) where I share my responses to the weekly assignments of this course.
+The theme of this week’s lecture is about _How We Are Differently Motivated_. It highlights how people’s sources of motivation vary and how understanding these differences can help us sustain our drive in both personal and professional contexts. If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900) where I share my responses to the weekly assignments of this course.
 
 The previous week’s blog post was titled ["Pause to Propel"](/it2900-week7-reflections/) You can take a look if you later find this article interesting.
 

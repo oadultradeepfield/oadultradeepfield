@@ -3,11 +3,11 @@ slug: it2900-week11-reflections
 title: "IT2900 Week 11 Reflection: Wishful Thinking, Binary Search, Fractional Knapsack, and Much More :)"
 tags: [ "IT2900", "Course Notes" ]
 description: "Reflections on driving action, accountability, and effective leadership techniques."
-pubDate: 2025-10-29
+pubDate: 2025-10-28
 ---
 
 The theme of this week’s lecture is about *Driving Action and Accountability*.
-We learned how leaders can turn plans into execution by delegating effectively, maintaining accountability, and using structured methods to ensure consistent team performance. <!--truncate--> If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900) where I share my responses to the weekly assignments of this course.
+We learned how leaders can turn plans into execution by delegating effectively, maintaining accountability, and using structured methods to ensure consistent team performance. If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900) where I share my responses to the weekly assignments of this course.
 
 The previous week’s blog post was titled ["Courage Can Be Reduced to Stupidity in Polynomial Time"](/it2900-week10-reflections/) You can take a look if you later find this article interesting.
 

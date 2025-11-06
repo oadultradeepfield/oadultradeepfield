@@ -9,7 +9,7 @@ pubDate: 2024-12-12
 I recently made a [C++ program to simulate 3-body problems](https://github.com/oadultradeepfield/three-body-simulation),
 which were able to recreate the famous figure-eight orbit. It used numerical approximation to solve Ordinary
 Differential Equations (ODEs) with the fourth-order Runge-Kutta method, also known as RK4. The program can handle N-body
-simulations too if you let it run long enough. <!-- truncate --> In this blog, I’ll simplify that project and redo it in
+simulations too if you let it run long enough. In this blog, I’ll simplify that project and redo it in
 JavaScript with just two bodies and two dimensions. My goal is to have a quick reference for RK4 whenever I need it in
 future projects. Enjoy!
 

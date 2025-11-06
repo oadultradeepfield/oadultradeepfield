@@ -6,7 +6,7 @@ description: "Reflections on courageous leadership, distinguishing courage from 
 pubDate: 2025-10-22
 ---
 
-The theme of this week’s lecture is about _Courageous Leadership_. It is foundational for leaders to be courageous, especially when facing difficult decisions that may involve risks or uncertainties. The guest lecturer for this week was Mr. Phillip Yeo. He shared his personal experiences and insights on how courage has played a crucial role in his leadership journey, particularly in challenging situations where he had to make tough calls for the greater good. <!--truncate--> If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900) where I share my responses to the weekly assignments of this course.
+The theme of this week’s lecture is about _Courageous Leadership_. It is foundational for leaders to be courageous, especially when facing difficult decisions that may involve risks or uncertainties. The guest lecturer for this week was Mr. Phillip Yeo. He shared his personal experiences and insights on how courage has played a crucial role in his leadership journey, particularly in challenging situations where he had to make tough calls for the greater good. If you are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900) where I share my responses to the weekly assignments of this course.
 
 The previous week’s blog post was titled ["Don’t Answer People’s Questions, Ask Them Back"](/it2900-week9-reflections/) You can take a look if you later find this article interesting.
 

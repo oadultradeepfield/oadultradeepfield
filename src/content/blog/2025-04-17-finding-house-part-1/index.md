@@ -10,8 +10,6 @@ I haven’t written a blog post in a while this semester, mainly because I’ve 
 start writing more regularly to share my thoughts in both academic and more general. In this post, I’ll be sharing my
 journey of finding off-campus accommodation as an international student studying at NUS.
 
-<!-- truncate -->
-
 This is the first part of a three-part series. In this post, I’ll focus on the scouting process. The next posts will
 cover contacting agents, visiting places, negotiating, and signing the agreement.
 

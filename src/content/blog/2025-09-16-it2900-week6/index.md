@@ -7,7 +7,7 @@ pubDate: 2025-09-16
 ---
 
 The theme of this week’s lecture is about _Psychological Safety_. It highlights how trust, empathy, and understanding
-within a team create an environment where people feel safe to take risks and learn from mistakes. <!--truncate--> If you
+within a team create an environment where people feel safe to take risks and learn from mistakes. If you
 are new, this is a continuation of the [IT2900 Weekly Reflection series](/tags/it2900), where I share my responses
 to the weekly assignments of this course.
 

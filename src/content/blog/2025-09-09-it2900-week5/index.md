@@ -9,7 +9,7 @@ pubDate: 2025-09-09
 The theme of this week’s lecture is about _Perspective Taking & Empathy_. There are few common misconceptions about the
 similarities between empathy, sympathy, and compassion. While sympathy focuses on feeling sorrow for other’s misfortune,
 empathy is about feeling what other person feels from their perspective. Compassion takes it further by introducing
-desire to relieve those suffering. <!--truncate--> If you are new, this is a continuation of
+desire to relieve those suffering. If you are new, this is a continuation of
 the [IT2900 Weekly Reflection series](/tags/it2900), where I share my responses to the weekly assignments of this
 course.
 

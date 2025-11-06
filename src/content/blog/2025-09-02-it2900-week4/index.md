@@ -10,7 +10,7 @@ The theme of this week's lecture is about _Emotionally Intelligent Leaders_. Bey
 leadership also requires the ability to recognize, understand, and manage emotions, both our own and those of others.
 Emotional intelligence shapes how leaders connect with their teams, build trust, and create an environment where people
 feel valued. Reflecting on this theme made me realize how much impact empathy and self-awareness have on the quality of
-leadership. <!-- truncate --> If you are new, this is a continuation of
+leadership. If you are new, this is a continuation of
 the [IT2900 Weekly Reflection](/tags/it2900) series, where I share my responses to the weekly assignments for this
 course.
 

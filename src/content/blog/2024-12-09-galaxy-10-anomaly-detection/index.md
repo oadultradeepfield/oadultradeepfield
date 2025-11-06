@@ -11,8 +11,6 @@ to mind was Galaxy Morphology Classification using ConvNeXtTiny. I challenged my
 to the free-tier Kaggle Notebook to avoid spending too much time or resources. Additionally, I wanted to make the most
 out of the dataset, so I decided to use the same Galaxy10 DECals dataset.
 
-<!-- truncate -->
-
 ## Some Background on the Dataset
 
 The [Galaxy10 DECals](https://astronn.readthedocs.io/en/latest/galaxy10.html) dataset was designed as an astronomical

@@ -10,8 +10,6 @@ I think I’ve messed up a bit by not spending enough time studying for the fina
 papers before an exam, but this time, that might not happen. So, I decided to prioritize and tackle problems I find
 particularly challenging, focusing on my weak areas and their contribution to the overall marks.
 
-<!-- truncate -->
-
 In this blog, I’ve shared my solutions to these problems. Each problem includes its numbering and source. My goal is to
 learn as much as possible, get used to the format, and hopefully do well on the finals! :)
 

@@ -10,7 +10,7 @@ Personally, my effective productivity system is when I wake up and I know what I
 with an overwhelming number of courses and assignments, I often found **task management** difficult to manage and track.
 So I thought, why not build some tools that can tell me immediately in the morning what I need to do today? I can add
 tasks to the pool with the specified date, and then don't need to worry about missing out since it would be
-automatically shown to me in the morning. This is how **OtterBot** was born. <!-- truncate -->
+automatically shown to me in the morning. This is how **OtterBot** was born.
 
 <figure>
 

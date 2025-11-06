@@ -13,7 +13,7 @@ them to provide a better signal-to-noise ratio.
 
 This is a standard technique in *astrophotography*, but doing this with the help of more fundamental libraries like
 *OpenCV* and *OpenMP* has taught me a lot about how we represent and process image data efficiently in the modern
-computer. <!--truncate-->
+computer.
 
 ## Lucky Imaging
 

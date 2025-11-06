@@ -10,8 +10,6 @@ While reviewing for CS1101S AY2024/25 Semester 1 Final Assessment, I found the c
 astonishing, yet challenging. Therefore, I attempted to implement pairs and streams from scratch in pure JavaScript to
 sharpen my skills.
 
-<!-- truncate -->
-
 **Note**: [CS1101S Programming Methodology](https://nusmods.com/courses/CS1101S/programming-methodology) is one of the
 most foundational computer science courses at National University of Singapore (NUS). The course follows the textbook
 _Structure and Interpretation of Computer Programs, JavaScript Adaptation (SICP JS)_. Streams are adapted

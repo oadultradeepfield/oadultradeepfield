@@ -12,7 +12,7 @@ inspiring stories from _Mr. Heng Swee Keat_, the former Deputy Prime Minister of
 continuation of the [IT2900 Weekly Reflection](/tags/it2900) series, where I shared my answers to the weekly
 assignment
 of this
-course. <!-- truncate -->
+course.
 
 The previous week's blog post was
 titled ["Learn About Yourself Before Learning How to Be a Leader."](/it2900-week1-reflections) You can take a look

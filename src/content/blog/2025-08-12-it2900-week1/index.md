@@ -8,7 +8,7 @@ pubDate: 2025-08-12
 
 This is a new series of blog posts where I **share** the lessons I **learned** from the course **IT2900 AY2025/26
 Semester 1**. This course is about **technical management and leadership**. Every week, we need to write a reflection to
-answer the prompt given by the teaching team, which is meant to help us **strengthen our critical thinking** and **understand ourselves better** as a person and as a leader. <!-- truncate -->
+answer the prompt given by the teaching team, which is meant to help us **strengthen our critical thinking** and **understand ourselves better** as a person and as a leader.
 
 I had the idea of writing this blog post also because I haven't **posted a new blog** for a while. Since this course
 forces me to write more, I will just **share what I learned** in the course here on my website. Sometimes, I may even **expand further** beyond what I actually submitted in class. After all, it helps me understand myself better anyway.
