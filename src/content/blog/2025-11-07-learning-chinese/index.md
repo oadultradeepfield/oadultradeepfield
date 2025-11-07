@@ -1,5 +1,5 @@
 ---
-slug: learning-chinese-in-my-last
+slug: learning-chinese-in-my-last-teen-year
 title: "Learning Chinese in My Last Teen Year"
 tags: [ "Student Life", "Chinese Language", "Personal Growth" ]
 description: "My experience taking a Chinese course at NUS and my motivations behind learning the language."
