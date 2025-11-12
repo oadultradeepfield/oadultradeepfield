@@ -17,32 +17,30 @@ export const projects: Project[] = [
 		demoLink: 'https://oadultradeepfield.github.io/psa-codesprint-2025/'
 	},
 	{
-		...(await getRepositoryDetails('git-mastery/exercises')),
-		name: 'Git Mastery Exercises',
-		description: 'My first open-source contribution!',
-		demoLink: 'https://git-mastery.github.io/exercises/'
-	},
-	{
 		...(await getRepositoryDetails('oadultradeepfield/planetary-image-stacker')),
 		name: 'Planetary Image Stacker',
 		postLink: '/planetary-image-stacker',
 		demoLink: 'https://github.com/oadultradeepfield/planetary-image-stacker'
 	},
 	{
-		name: 'Boonchubike CMS',
-		description: 'Client management system for Boonchubike, a bicycle store in Thailand.',
-		postLink: '/boonchubike-cms'
+		...(await getRepositoryDetails('git-mastery/repo-smith')),
+		name: 'Git-Mastery repo-smith',
+		description: 'My first open-source contribution!',
+		postLink: 'https://git-mastery.github.io/',
+		demoLink: 'https://pypi.org/project/repo-smith/'
+	},
+	{
+		...(await getRepositoryDetails('git-mastery/exercises')),
+		name: 'Git-Mastery Exercises',
+		description: 'A follow up on my first open-source contribution :)',
+		postLink: 'https://git-mastery.github.io/',
+		demoLink: 'https://git-mastery.github.io/exercises'
 	},
 	{
 		...(await getRepositoryDetails('oadultradeepfield/otterbot')),
 		name: 'OtterBot',
 		postLink: '/otterbot',
 		demoLink: 'https://phanuphats.com/otterbot'
-	},
-	{
-		...(await getRepositoryDetails('oadultradeepfield/thai-address-api')),
-		name: 'Thai Address API',
-		demoLink: 'https://github.com/oadultradeepfield/thai-address-api'
 	},
 	{
 		...(await getRepositoryDetails('oadultradeepfield/redactkit-on-device-model')),
@@ -53,5 +51,15 @@ export const projects: Project[] = [
 		...(await getRepositoryDetails('oadultradeepfield/cs2103-pe-toolkit')),
 		name: 'CS2103/T PE Toolkit',
 		demoLink: 'https://pypi.org/project/pe-toolkit/'
+	},
+	{
+		...(await getRepositoryDetails('oadultradeepfield/thai-address-api')),
+		name: 'Thai Address API',
+		demoLink: 'https://github.com/oadultradeepfield/thai-address-api'
+	},
+	{
+		name: 'Boonchubike CMS',
+		description: 'Client management system for Boonchubike, a bicycle store in Thailand.',
+		postLink: '/boonchubike-cms'
 	}
 ];
