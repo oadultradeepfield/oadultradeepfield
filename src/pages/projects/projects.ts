@@ -12,15 +12,15 @@ export interface Project {
 
 export const projects: Project[] = [
 	{
-		...(await getRepositoryDetails('oadultradeepfield/psa-codesprint-2025')),
-		name: 'PSA CodeSprint 2025',
-		demoLink: 'https://oadultradeepfield.github.io/psa-codesprint-2025/'
-	},
-	{
 		...(await getRepositoryDetails('oadultradeepfield/planetary-image-stacker')),
 		name: 'Planetary Image Stacker',
 		postLink: '/planetary-image-stacker',
 		demoLink: 'https://github.com/oadultradeepfield/planetary-image-stacker'
+	},
+	{
+		...(await getRepositoryDetails('oadultradeepfield/thai-address-api')),
+		name: 'Thai Address API',
+		demoLink: 'https://github.com/oadultradeepfield/thai-address-api'
 	},
 	{
 		...(await getRepositoryDetails('git-mastery/repo-smith')),
@@ -51,11 +51,6 @@ export const projects: Project[] = [
 		...(await getRepositoryDetails('oadultradeepfield/cs2103-pe-toolkit')),
 		name: 'CS2103/T PE Toolkit',
 		demoLink: 'https://pypi.org/project/pe-toolkit/'
-	},
-	{
-		...(await getRepositoryDetails('oadultradeepfield/thai-address-api')),
-		name: 'Thai Address API',
-		demoLink: 'https://github.com/oadultradeepfield/thai-address-api'
 	},
 	{
 		name: 'Boonchubike CMS',
