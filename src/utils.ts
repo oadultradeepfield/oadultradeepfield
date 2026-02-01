@@ -28,13 +28,35 @@ export const kFormatter = (num: number) => {
 };
 
 export const getRepositoryDetails = async (repositoryFullname: string) => {
-	const repoDetails = await fetch('https://api.github.com/repos/' + repositoryFullname, {
-		method: 'GET',
-		headers: {
-			Authorization: `Bearer ${GITHUB_PERSONAL_ACCESS_TOKEN}`,
-			'X-GitHub-Api-Version': '2022-11-28'
+	try {
+		const repoDetails = await fetch('https://api.github.com/repos/' + repositoryFullname, {
+			method: 'GET',
+			headers: {
+				Authorization: `Bearer ${GITHUB_PERSONAL_ACCESS_TOKEN}`,
+				'X-GitHub-Api-Version': '2022-11-28'
+			}
+		});
+
+		if (!repoDetails.ok) {
+			throw new Error(`GitHub API error: ${repoDetails.status}`);
 		}
-	});
-	const response = await repoDetails.json();
-	return response;
+
+		const response = await repoDetails.json();
+
+		// Only return fields we actually need
+		return {
+			stargazers_count: response.stargazers_count,
+			html_url: response.html_url,
+			description: response.description,
+			topics: response.topics
+		};
+	} catch (error) {
+		console.error(`Failed to fetch repo ${repositoryFullname}:`, error);
+		return {
+			stargazers_count: 0,
+			html_url: `https://github.com/${repositoryFullname}`,
+			description: '',
+			topics: []
+		};
+	}
 };
