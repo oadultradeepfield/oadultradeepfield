@@ -2,7 +2,7 @@ import { getRepositoryDetails } from '../../utils';
 
 export interface Project {
 	name: string;
-	demoLink: string;
+	demoLink?: string;
 	tags?: string[];
 	description?: string;
 	postLink?: string;

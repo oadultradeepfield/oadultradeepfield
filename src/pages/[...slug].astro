@@ -4,7 +4,6 @@ import Prose from '../components/Prose.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
 import FormattedDate from '../components/FormattedDate.astro';
-import AboutTheAuthor from '../components/widgets/AboutTheAuthor.astro';
 import TableOfContent from '../components/widgets/TableOfContent.astro';
 import { slugify } from '../utils';
 import { loadEnv } from 'vite';
@@ -46,10 +45,7 @@ const { Content, headings } = await render(post);
 									<div class='flex gap-2'>
 										{(tags || [])?.map((tag: string) => (
 											<a
-												class='border border-zinc-300 dark:border-zinc-700 rounded-2xl
-                          text-sm text-zinc-700 dark:text-zinc-300 no-underline px-2 py-0.5
-                          transition-all duration-700
-                        hover:border-zinc-700 dark:hover:border-zinc-300'
+												class='text-sm text-earth-500 dark:text-earth-400 hover:text-earth-800 dark:hover:text-earth-200 transition-colors font-mono'
 												href={`/tags/${slugify(tag)}`}>
 												{tag}
 											</a>
@@ -108,9 +104,6 @@ const { Content, headings } = await render(post);
 			</article>
 		</main>
 		<div class='shrink-0 w-[280px] hidden md:block'>
-			<div class='mb-4'>
-				<AboutTheAuthor />
-			</div>
 			<TableOfContent headings={headings} />
 		</div>
 	</div>

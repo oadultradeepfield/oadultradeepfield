@@ -6,13 +6,13 @@ import { projects } from './projects';
 
 <BaseLayout title='All Projects' description='All my project portfolio from real projects to open source projects.'>
 	<div class='container'>
-		<div class='mb-10'>
-			<h1 class='text-3xl font-bold mb-2'>My Projects</h1>
-			<p class='text-zinc-700 dark:text-zinc-300 text-lg mb-4'>
+		<div class='mb-12 max-w-3xl'>
+			<h1 class='text-2xl md:text-3xl font-semibold mb-4 font-mono text-earth-900 dark:text-earth-100'>Projects</h1>
+			<p class='text-base text-earth-700 dark:text-earth-300 leading-relaxed'>
 				Here is a list of my notable projects, built out of personal interest, to solve my own problems, contribute to others, explore new
 				ideas, and more to come!
 			</p>
-			<ProjectList projects={projects} />
 		</div>
+		<ProjectList projects={projects} />
 	</div>
 </BaseLayout>
