@@ -27,7 +27,7 @@ const menu = [
 		<nav class='flex gap-4 items-center justify-between py-3'>
 			<h2 class='m-0'>
 				<a href='/' class='flex gap-4 items-center text-xl font-black uppercase'>
-					<Image src={Profile} alt='oadultradeepfield' class='rounded-full w-11 border-white border-2 shadow-lg' />
+					<Image src={Profile} alt='oadultradeepfield' class='rounded-full w-11 border-earth-100 dark:border-earth-800 border-2 shadow-lg' />
 				</a>
 			</h2>
 			<div class='flex'>
@@ -78,17 +78,17 @@ const menu = [
 			</div>
 		</nav>
 		<div class='fixed top-3 w-auto max-w-full px-3 left-1/2 -translate-x-1/2 z-[999]'>
-			<div class='flex px-2.5 bg-white/90 dark:bg-zinc-900/75 backdrop-blur-md leading-tight rounded-full border dark:border-zinc-700'>
-				<div class='px-2.5 text-sm'>
-					<HeaderLink class='py-3 flex items-center' href='/' aria-label='Home'>
+			<div class='flex px-3 bg-earth-100/95 dark:bg-earth-900/95 backdrop-blur-sm leading-tight rounded-full border border-earth-300 dark:border-earth-800'>
+				<div class='px-2 text-sm'>
+					<HeaderLink class='py-2.5 flex items-center transition-colors' href='/' aria-label='Home'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
-							width='20'
-							height='20'
+							width='18'
+							height='18'
 							viewBox='0 0 24 24'
 							fill='none'
 							stroke='currentColor'
-							stroke-width='1.7'
+							stroke-width='2'
 							stroke-linecap='round'
 							stroke-linejoin='round'
 							class='lucide lucide-house'
@@ -101,8 +101,8 @@ const menu = [
 				</div>
 				{
 					menu.map((item) => (
-						<div class='px-2.5 text-sm'>
-							<HeaderLink class='py-3 flex items-center' href={item.link}>
+						<div class='px-2 text-sm font-mono'>
+							<HeaderLink class='py-2.5 flex items-center transition-colors' href={item.link}>
 								{item.label}
 							</HeaderLink>
 						</div>
