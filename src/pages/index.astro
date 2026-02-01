@@ -24,8 +24,9 @@ const posts = (await getCollection('blog'))
 				</h1>
 				<div class='text-base md:text-lg leading-relaxed text-earth-700 dark:text-earth-300'>
 					<p class='mb-4'>
-						I am an Astronomy Olympiad medalist turned Computer Science major at NUS. I began my journey with an interest in developing AI
-						models, but over time, I found myself become more attracted to areas such as computer networking and parallel computing.
+						I am an astronomy olympiad medalist turned CS student at NUS. I got into programming through AI research in high school, but
+						these days I'm more interested in systems engineering, networking, and parallel computing. I also love building software that
+						makes everyday tasks more enjoyable. 😊
 					</p>
 					<p>
 						Beyond academics, I enjoy building simple yet powerful software that makes everyday tasks a little more intuitive, efficient,
@@ -38,7 +39,11 @@ const posts = (await getCollection('blog'))
 			<div class='mb-16 md:mb-24'>
 				<div class='flex items-baseline justify-between mb-6'>
 					<h2 class='text-xl md:text-2xl font-semibold font-mono text-earth-900 dark:text-earth-100'>Recent Posts</h2>
-					<a href='/posts/' class='text-sm text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors'>View all →</a>
+					<a
+						href='/posts/'
+						class='text-sm text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors'
+						>View all →</a
+					>
 				</div>
 				<div>
 					{posts.map((post: BlogPost) => <PostItem post={post} />)}
@@ -47,7 +52,11 @@ const posts = (await getCollection('blog'))
 			<div>
 				<div class='flex items-baseline justify-between mb-6'>
 					<h2 class='text-xl md:text-2xl font-semibold font-mono text-earth-900 dark:text-earth-100'>Projects</h2>
-					<a href='/projects/' class='text-sm text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors'>View all →</a>
+					<a
+						href='/projects/'
+						class='text-sm text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors'
+						>View all →</a
+					>
 				</div>
 				<ProjectList projects={top3Projects} />
 			</div>
