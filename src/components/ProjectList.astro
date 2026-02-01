@@ -8,18 +8,15 @@ import GithubBlack from '@src/assets/img/github-mark.svg';
 const { projects } = Astro.props;
 ---
 
-<div class='grid grid-cols-12 gap-5'>
+<div class='grid grid-cols-12 gap-4'>
 	{
 		projects.map((project: Project) => (
-			<div class='col-span-12 sm:col-span-6 lg:col-span-4 border dark:border-zinc-700 rounded-xl shadow-sm p-5'>
-				<div class='flex justify-between items-center'>
+			<div class='col-span-12 sm:col-span-6 lg:col-span-4 border border-earth-300 dark:border-earth-800 rounded-lg hover:border-earth-400 dark:hover:border-earth-600 transition-colors p-5 bg-earth-50/50 dark:bg-earth-900/50'>
+				<div class='flex justify-between items-center mb-3'>
 					<div class='flex gap-2'>
 						{(project.tags || [])?.map((tag: string) => (
 							<span
-								class='border border-zinc-300 dark:border-zinc-700 rounded-2xl
-                    text-sm text-zinc-700 dark:text-zinc-300 no-underline px-2 py-0.5
-                    transition-all duration-700
-                  hover:border-zinc-700 dark:hover:border-zinc-300'>
+								class='text-xs text-earth-500 dark:text-earth-400 font-mono'>
 								{tag}
 							</span>
 						))}
@@ -30,51 +27,31 @@ const { projects } = Astro.props;
 							<a
 								href={project.html_url}
 								target='_blank'
-								class='border border-zinc-300 dark:border-zinc-700 rounded-2xl
-                    text-xs text-zinc-700 dark:text-zinc-300 no-underline px-2 py-0.5
-                    transition-all duration-700
-                  hover:border-zinc-700 dark:hover:border-zinc-300
-                    flex items-center gap-1
-              '>
+								class='text-xs text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors flex items-center gap-1 font-mono'>
 								<Image src={GithubBlack} height={12} class='dark:hidden' alt='Github stars' />
 								<Image src={GithubWhite} height={12} class='hidden dark:block' alt='Github stars' />
-								{kFormatter(project.stargazers_count)} stars
+								{kFormatter(project.stargazers_count)}
 							</a>
 						</div>
 					)}
 				</div>
-				<h3 class='font-semibold my-2'>
-					<a class='underline' href={project.demoLink} target='_blank' rel={project.demoLinkRel}>
+				<h3 class='font-semibold text-base mb-2 text-earth-900 dark:text-earth-100'>
+					<a class='hover:text-earth-600 dark:hover:text-earth-300 transition-colors' href={project.demoLink} target='_blank' rel={project.demoLinkRel}>
 						{project.name}
 					</a>
 				</h3>
-				<div class='line-clamp-2 text-zinc-600 dark:text-zinc-300 mb-4 min-h-[50px]'>
+				<div class='line-clamp-2 text-sm text-earth-600 dark:text-earth-300 mb-4 min-h-[40px]'>
 					<p>{project.description}</p>
 				</div>
-				<div class='flex justify-end gap-3'>
+				<div class='flex gap-4 text-sm font-mono'>
 					{project.postLink && (
-						<a class='underline flex items-center gap-2' href={project.postLink}>
-							Article
+						<a class='text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors' href={project.postLink}>
+							Article →
 						</a>
 					)}
-					{project.demoLink && ( // This line adds the conditional check for the Demo link
-						<a class='underline flex items-center gap-2' href={project.demoLink} target='_blank' rel={project.demoLinkRel}>
-							Demo
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								width='14'
-								height='14'
-								viewBox='0 0 24 24'
-								fill='none'
-								stroke='currentColor'
-								stroke-width='2'
-								stroke-linecap='round'
-								stroke-linejoin='round'
-								class='lucide lucide-external-link'>
-								<path d='M15 3h6v6' />
-								<path d='M10 14 21 3' />
-								<path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6' />
-							</svg>
+					{project.demoLink && (
+						<a class='text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors' href={project.demoLink} target='_blank' rel={project.demoLinkRel}>
+							Demo →
 						</a>
 					)}
 				</div>
