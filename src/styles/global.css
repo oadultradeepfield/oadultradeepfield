@@ -3,34 +3,36 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: #faf8f5;
-    --foreground: #252119;
-    --muted: #96856b;
-    --border: #e6dfd3;
-  }
+	:root {
+		--background: #faf8f5;
+		--foreground: #252119;
+		--muted: #968562;
+		--border: #e6dfd3;
+	}
 
-  .dark {
-    --background: #1a1714;
-    --foreground: #f3efe8;
-    --muted: #b5a78f;
-    --border: #3d352b;  /* earth-800 */
-  }
+	.dark {
+		--background: #1a1714;
+		--foreground: #f3efe8;
+		--muted: #b5a78f;
+		--border: #3d352b; /* earth-800 */
+	}
 
-  html {
-    scroll-behavior: smooth;
-    background-color: var(--background);
-    color: var(--foreground);
-  }
+	html {
+		scroll-behavior: smooth;
+		background-color: var(--background);
+		color: var(--foreground);
+	}
 
-  body {
-    background-color: var(--background);
-    color: var(--foreground);
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
+	body {
+		background-color: var(--background);
+		color: var(--foreground);
+		transition:
+			background-color 0.3s ease,
+			color 0.3s ease;
+	}
 
-  pre,
-  code {
-    font-size: 0.875rem;
-  }
+	pre,
+	code {
+		font-size: 0.875rem;
+	}
 }

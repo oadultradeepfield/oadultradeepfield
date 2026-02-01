@@ -63,7 +63,7 @@ const description = 'Post tags: concise keywords categorising content for easy n
 		<div>
 			{
 				groupedTags.map(({ letter, tags }) => (
-					<div class='flex gap-4 border-b border-earth-300 dark:border-earth-800 py-4 mb-4'>
+					<div class='flex gap-4 border-b border-earth-200 dark:border-earth-800 py-4 mb-4'>
 						<h2 class='text-xl font-semibold text-earth-800 dark:text-earth-200 w-8 shrink-0 font-mono'>{letter}</h2>
 						<div class='flex gap-2 flex-wrap'>
 							{(tags || [])?.map((tag: Tag) => (
