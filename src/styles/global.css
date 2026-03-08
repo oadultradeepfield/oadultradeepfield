@@ -33,6 +33,7 @@
 
 	pre,
 	code {
+		font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 		font-size: 0.875rem;
 	}
 }

@@ -15,7 +15,7 @@ const { projects } = Astro.props;
 				<div class='flex justify-between items-center mb-3'>
 					<div class='flex gap-2'>
 						{(project.tags || [])?.map((tag: string) => (
-							<span class='text-xs text-earth-500 dark:text-earth-400 font-mono'>{tag}</span>
+							<span class='text-xs text-earth-500 dark:text-earth-400 font-display'>{tag}</span>
 						))}
 					</div>
 
@@ -24,7 +24,7 @@ const { projects } = Astro.props;
 							<a
 								href={project.html_url}
 								target='_blank'
-								class='text-xs text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors flex items-center gap-1 font-mono'>
+								class='text-xs text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors flex items-center gap-1 font-display'>
 								<Image src={GithubBlack} height={12} class='dark:hidden' alt='Github stars' />
 								<Image src={GithubWhite} height={12} class='hidden dark:block' alt='Github stars' />
 								{kFormatter(project.stargazers_count)}
@@ -44,7 +44,7 @@ const { projects } = Astro.props;
 				<div class='line-clamp-3 text-sm text-earth-600 dark:text-earth-300 mb-4 min-h-[40px]'>
 					<p>{project.description}</p>
 				</div>
-				<div class='flex gap-4 text-sm font-mono'>
+				<div class='flex gap-4 text-sm font-display'>
 					{project.postLink && (
 						<a
 							class='text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors'

@@ -22,8 +22,9 @@ export default {
 			},
 			fontFamily: {
 				'sans': ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-				'mono': ['Space Grotesk', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+				'mono': ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
 				'serif': ['Instrument Serif', 'ui-serif', 'Georgia', 'serif'],
+				'display': ['Space Grotesk', 'ui-sans-serif', 'system-ui', 'sans-serif'],
 			},
 			fontSize: {
 				'5xl': ['3rem', { lineHeight: '1.2' }],
