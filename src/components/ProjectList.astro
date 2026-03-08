@@ -8,10 +8,10 @@ import GithubBlack from '@src/assets/img/github-mark.svg';
 const { projects } = Astro.props;
 ---
 
-<div class='grid grid-cols-12 gap-4'>
+<div class='grid grid-cols-12 gap-5'>
 	{
 		projects.map((project: Project) => (
-			<div class='col-span-12 sm:col-span-6 lg:col-span-4 border border-earth-200 dark:border-earth-800 rounded-lg hover:border-earth-300 dark:hover:border-earth-700 transition-colors p-5 bg-earth-50/50 dark:bg-earth-900/50'>
+			<div class='col-span-12 sm:col-span-6 lg:col-span-4 glass rounded-lg transition-colors p-6'>
 				<div class='flex justify-between items-center mb-3'>
 					<div class='flex gap-2'>
 						{(project.tags || [])?.map((tag: string) => (
@@ -41,7 +41,7 @@ const { projects } = Astro.props;
 						{project.name}
 					</a>
 				</h3>
-				<div class='line-clamp-2 text-sm text-earth-600 dark:text-earth-300 mb-4 min-h-[40px]'>
+				<div class='line-clamp-3 text-sm text-earth-600 dark:text-earth-300 mb-4 min-h-[40px]'>
 					<p>{project.description}</p>
 				</div>
 				<div class='flex gap-4 text-sm font-mono'>

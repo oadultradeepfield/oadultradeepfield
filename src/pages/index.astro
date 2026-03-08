@@ -17,9 +17,9 @@ const posts = (await getCollection('blog'))
 
 <BaseLayout title={SITE_TITLE + ' - ' + SITE_TAGLINE} description={SITE_DESCRIPTION}>
 	<div class='container'>
-		<div class='w-full mb-16 md:mb-24 pt-8 md:pt-16'>
+		<div class='w-full mb-20 md:mb-32 pt-4 md:pt-8'>
 			<div class='max-w-3xl'>
-				<h1 class='text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 leading-tight font-mono text-earth-900 dark:text-earth-100'>
+				<h1 class='text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 leading-tight font-serif text-earth-900 dark:text-earth-100'>
 					Hi, I'm Phanuphat (Oad)
 				</h1>
 				<div class='text-base md:text-lg leading-relaxed text-earth-700 dark:text-earth-300'>
@@ -30,8 +30,8 @@ const posts = (await getCollection('blog'))
 			</div>
 		</div>
 		<main>
-			<div class='mb-16 md:mb-24'>
-				<div class='flex items-baseline justify-between mb-6'>
+			<div class='mb-20 md:mb-28'>
+				<div class='flex items-baseline justify-between mb-8 pb-3 border-b border-earth-200 dark:border-earth-800'>
 					<h2 class='text-xl md:text-2xl font-semibold font-mono text-earth-900 dark:text-earth-100'>Recent Posts</h2>
 					<a
 						href='/posts/'
@@ -43,8 +43,8 @@ const posts = (await getCollection('blog'))
 					{posts.map((post: BlogPost) => <PostItem post={post} />)}
 				</div>
 			</div>
-			<div>
-				<div class='flex items-baseline justify-between mb-6'>
+			<div class='mb-20 md:mb-28'>
+				<div class='flex items-baseline justify-between mb-8 pb-3 border-b border-earth-200 dark:border-earth-800'>
 					<h2 class='text-xl md:text-2xl font-semibold font-mono text-earth-900 dark:text-earth-100'>Projects</h2>
 					<a
 						href='/projects/'
