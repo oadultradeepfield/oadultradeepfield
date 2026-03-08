@@ -7,7 +7,7 @@ export default {
 	theme: {
 		container: {
 			center: true,
-			padding: '1rem',
+			padding: { DEFAULT: '1.25rem', sm: '1.5rem', md: '2rem', lg: '2.5rem' },
 			screens: {
 				xl: '1024px'
 			}
@@ -21,27 +21,28 @@ export default {
 				}
 			},
 			fontFamily: {
-				'sans': ['Manrope', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-				'mono': ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+				'sans': ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+				'mono': ['Space Grotesk', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+				'serif': ['Instrument Serif', 'ui-serif', 'Georgia', 'serif'],
 			},
 			fontSize: {
 				'5xl': ['3rem', { lineHeight: '1.2' }],
 				'6xl': ['3.75rem', { lineHeight: '1.1' }],
 			},
 			colors: {
-				// More prominent earth tone palette
+				// Neutral gray scale
 				'earth': {
-					50: '#faf8f5',   // warm cream white
-					100: '#f3efe8',  // light cream
-					200: '#e6dfd3',  // sand light
-					300: '#d1c7b6',  // warm taupe light
-					400: '#b5a78f',  // taupe
-					500: '#96856b',  // warm brown
-					600: '#7a6b54',  // earth brown
-					700: '#5c503f',  // dark taupe
-					800: '#3d352b',  // dark earth
-					900: '#252119',  // very dark earth
-					950: '#1a1714',  // near black with warmth
+					50: '#fafafa',
+					100: '#f5f5f5',
+					200: '#e8e8e8',
+					300: '#d4d4d4',
+					400: '#a3a3a3',
+					500: '#737373',
+					600: '#525252',
+					700: '#404040',
+					800: '#262626',
+					900: '#171717',
+					950: '#0a0a0a',
 				},
 			},
 		}

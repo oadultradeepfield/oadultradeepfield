@@ -4,17 +4,17 @@
 
 @layer base {
 	:root {
-		--background: #faf8f5;
-		--foreground: #252119;
-		--muted: #968562;
-		--border: #e6dfd3;
+		--background: #fdfdfc;
+		--foreground: #1a1a1a;
+		--muted: #8a8a8a;
+		--border: #e8e8e8;
 	}
 
 	.dark {
-		--background: #1a1714;
-		--foreground: #f3efe8;
-		--muted: #b5a78f;
-		--border: #3d352b; /* earth-800 */
+		--background: #0f0f0f;
+		--foreground: #f0f0f0;
+		--muted: #9a9a9a;
+		--border: #2a2a2a;
 	}
 
 	html {
@@ -35,4 +35,52 @@
 	code {
 		font-size: 0.875rem;
 	}
+}
+
+/* Light mode: shadow-driven glass — tinted surface + soft shadow defines the edge */
+.glass {
+	--glass-border-width: 1px;
+	position: relative;
+	background: hsla(0, 0%, 100%, 0.6);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border: 1px solid hsla(0, 0%, 0%, 0.06);
+	box-shadow:
+		0 1px 2px hsla(0, 0%, 0%, 0.03),
+		0 2px 8px hsla(0, 0%, 0%, 0.03);
+}
+
+/* Light mode doesn't use the gradient-border trick — not needed */
+.glass::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	inset: 0;
+	border-radius: inherit;
+	border: var(--glass-border-width) solid transparent;
+	background: linear-gradient(
+		hsla(0, 0%, 100%, 0.8),
+		hsla(0, 0%, 100%, 0)
+	) border-box;
+	mask:
+		linear-gradient(black, black) border-box,
+		linear-gradient(black, black) padding-box;
+	mask-composite: subtract;
+	-webkit-mask-composite: source-out;
+}
+
+/* Dark mode: gradient-border-driven glass — light edges on dark surface */
+.dark .glass {
+	background: hsla(0, 0%, 100%, 0.04);
+	border-color: transparent;
+	box-shadow:
+		0 2px 16px hsla(0, 0%, 0%, 0.3),
+		0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+.dark .glass::before {
+	background: linear-gradient(
+		hsla(0, 0%, 100%, 0.12),
+		hsla(0, 0%, 100%, 0.04)
+	) border-box;
 }
