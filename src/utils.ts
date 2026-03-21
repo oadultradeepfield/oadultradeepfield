@@ -60,3 +60,38 @@ export const getRepositoryDetails = async (repositoryFullname: string) => {
 		};
 	}
 };
+
+export const getUserRepos = async (username: string, display: number = 6) => {
+	try {
+		const response = await fetch(
+			`https://api.github.com/users/${username}/repos?type=owner&sort=updated&direction=desc&per_page=${display * 2}`,
+			{
+				method: 'GET',
+				headers: {
+					Authorization: `Bearer ${GITHUB_PERSONAL_ACCESS_TOKEN}`,
+					'X-GitHub-Api-Version': '2022-11-28'
+				}
+			}
+		);
+
+		if (!response.ok) {
+			throw new Error(`GitHub API error: ${response.status}`);
+		}
+
+		const repos = await response.json();
+
+		return repos
+			.filter((repo: any) => repo.description)
+			.slice(0, display)
+			.map((repo: any) => ({
+				name: repo.name,
+				description: repo.description,
+				html_url: repo.html_url,
+				topics: repo.topics ?? [],
+				stargazers_count: repo.stargazers_count
+			}));
+	} catch (error) {
+		console.error(`Failed to fetch repos for ${username}:`, error);
+		return [];
+	}
+};

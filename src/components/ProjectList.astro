@@ -11,57 +11,39 @@ const { projects } = Astro.props;
 <div class='grid grid-cols-12 gap-5'>
 	{
 		projects.map((project: Project) => (
-			<div class='col-span-12 sm:col-span-6 lg:col-span-4 glass rounded-lg transition-colors p-6'>
-				<div class='flex justify-between items-center mb-3'>
-					<div class='flex gap-2'>
-						{(project.tags || [])?.map((tag: string) => (
-							<span class='text-xs text-earth-500 dark:text-earth-400 font-display'>{tag}</span>
+			<div class='col-span-12 sm:col-span-6 lg:col-span-4 glass rounded-lg transition-all duration-200 py-5 px-8 flex flex-col gap-3 hover:-translate-y-0.5'>
+				<div class='flex justify-between items-start gap-3'>
+					<h3 class='font-semibold text-base text-earth-900 dark:text-earth-100 leading-snug'>
+						<a
+							class='hover:text-earth-600 dark:hover:text-earth-300 transition-colors'
+							href={project.html_url}
+							target='_blank'>
+							{project.name}
+						</a>
+					</h3>
+					{project.stargazers_count !== undefined && (
+						<a
+							href={project.html_url}
+							target='_blank'
+							class='shrink-0 flex items-center gap-1 text-xs text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors font-display mt-0.5'>
+							<Image src={GithubBlack} height={12} class='dark:hidden' alt='GitHub' />
+							<Image src={GithubWhite} height={12} class='hidden dark:block' alt='GitHub' />
+							{kFormatter(project.stargazers_count)}
+						</a>
+					)}
+				</div>
+				<p class='text-sm text-earth-600 dark:text-earth-300 line-clamp-3 leading-relaxed'>
+					{project.description}
+				</p>
+				{(project.topics || []).length > 0 && (
+					<div class='flex flex-wrap gap-1.5 mt-auto pt-1'>
+						{(project.topics || []).map((tag: string) => (
+							<span class='inline-block px-2 py-1 rounded text-xs font-display text-earth-500 dark:text-earth-400 border border-earth-200 dark:border-earth-700 bg-earth-50 dark:bg-earth-800/50'>
+								{tag}
+							</span>
 						))}
 					</div>
-
-					{project.stargazers_count !== undefined && (
-						<div class='shrink-0'>
-							<a
-								href={project.html_url}
-								target='_blank'
-								class='text-xs text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors flex items-center gap-1 font-display'>
-								<Image src={GithubBlack} height={12} class='dark:hidden' alt='Github stars' />
-								<Image src={GithubWhite} height={12} class='hidden dark:block' alt='Github stars' />
-								{kFormatter(project.stargazers_count)}
-							</a>
-						</div>
-					)}
-				</div>
-				<h3 class='font-semibold text-base mb-2 text-earth-900 dark:text-earth-100'>
-					<a
-						class='hover:text-earth-600 dark:hover:text-earth-300 transition-colors'
-						href={project.demoLink}
-						target='_blank'
-						rel={project.demoLinkRel}>
-						{project.name}
-					</a>
-				</h3>
-				<div class='line-clamp-3 text-sm text-earth-600 dark:text-earth-300 mb-4 min-h-[40px]'>
-					<p>{project.description}</p>
-				</div>
-				<div class='flex gap-4 text-sm font-display'>
-					{project.postLink && (
-						<a
-							class='text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors'
-							href={project.postLink}>
-							Article →
-						</a>
-					)}
-					{project.demoLink && (
-						<a
-							class='text-earth-500 dark:text-earth-400 hover:text-earth-700 dark:hover:text-earth-200 transition-colors'
-							href={project.demoLink}
-							target='_blank'
-							rel={project.demoLinkRel}>
-							Demo →
-						</a>
-					)}
-				</div>
+				)}
 			</div>
 		))
 	}
