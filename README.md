@@ -1,7 +1,5 @@
 # 👋 Hi! I'm Oad
 
-I am an astronomy olympiad medalist turned CS student at NUS. I got into programming through AI research in high school, but these
-days I'm more interested in systems engineering, networking, and parallel computing. I also love building software that makes
-everyday tasks more enjoyable. 😊
+Hi! I'm Oad, an Astronomy Olympiad medalist turned CS student at NUS. I first got into coding by building AI models for space physics problems, but these days my focus is on parallelism, concurrency, and native-experience development. I love building technology that feels genuinely good to use. 😊
 
 You can explore my work and read my blog at [phanuphats.com](https://www.phanuphats.com/) 🦦💻
