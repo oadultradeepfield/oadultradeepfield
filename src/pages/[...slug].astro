@@ -110,33 +110,48 @@ const { Content, headings } = await render(post);
 </BaseLayout>
 
 <script async is:inline>
-	const anchors = document.querySelectorAll('.prose h2[id], .prose h3[id]');
-	const links = document.querySelectorAll('nav.toc ul li a');
+	const anchors = Array.from(document.querySelectorAll('.prose h2[id], .prose h3[id]'));
+	const links = Array.from(document.querySelectorAll('nav.toc ul li a'));
 
-	function observeToc() {
-		if (typeof anchors != 'undefined' && anchors != null && typeof links != 'undefined' && links != null) {
-			let scrollTop = window.scrollY;
+	if (anchors.length > 0 && links.length > 0) {
+		const indexMap = new Map();
+		anchors.forEach(function(el, i) { indexMap.set(el, i); });
 
-			// highlight the last scrolled-to: set everything inactive first
-			for (const link of links) {
+		const aboveZone = new Set();
+
+		function setActive(index) {
+			links.forEach(function(link) {
 				link.classList.add('border-transparent', 'text-inherit');
 				link.classList.remove('bg-[var(--background-surface-color)]', 'border-[var(--soft-border-color)]', 'text-[var(--link-color)]');
-			}
-			// then iterate backwards, on the first match highlight it and break
-			for (var i = anchors.length - 1; i >= 0; i--) {
-				if (scrollTop > anchors[i].offsetTop - 80) {
-					links[i].classList.remove('border-transparent', 'text-inherit');
-					links[i].classList.add('bg-[var(--background-surface-color)]', 'border-[var(--soft-border-color)]', 'text-[var(--link-color)]');
-					break;
-				}
+			});
+			if (index >= 0 && index < links.length) {
+				links[index].classList.remove('border-transparent', 'text-inherit');
+				links[index].classList.add('bg-[var(--background-surface-color)]', 'border-[var(--soft-border-color)]', 'text-[var(--link-color)]');
 			}
 		}
-	}
 
-	window.addEventListener('scroll', (event) => {
-		observeToc(event);
-	});
-	window.addEventListener('hashchange', (event) => {
-		observeToc(event);
-	});
+		function updateActive() {
+			if (aboveZone.size === 0) { setActive(-1); return; }
+			let maxIndex = -1;
+			aboveZone.forEach(function(el) {
+				const i = indexMap.get(el);
+				if (i > maxIndex) maxIndex = i;
+			});
+			setActive(maxIndex);
+		}
+
+		const observer = new IntersectionObserver(function(entries) {
+			entries.forEach(function(entry) {
+				if (!entry.isIntersecting && entry.boundingClientRect.top < entry.rootBounds.top) {
+					aboveZone.add(entry.target);
+				} else {
+					aboveZone.delete(entry.target);
+				}
+			});
+			updateActive();
+		}, { rootMargin: '-80px 0px -40% 0px' });
+
+		anchors.forEach(function(el) { observer.observe(el); });
+		window.addEventListener('hashchange', updateActive);
+	}
 </script>

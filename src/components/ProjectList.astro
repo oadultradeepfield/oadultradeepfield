@@ -11,7 +11,7 @@ const { projects } = Astro.props;
 <div class='grid grid-cols-12 gap-5'>
 	{
 		projects.map((project: Project) => (
-			<div class='col-span-12 sm:col-span-6 lg:col-span-4 glass rounded-lg transition-all duration-200 py-5 px-8 flex flex-col gap-3 hover:-translate-y-0.5'>
+			<div class='col-span-12 sm:col-span-6 lg:col-span-4 glass rounded-lg transition-transform duration-200 py-5 px-8 flex flex-col gap-3 hover:-translate-y-0.5'>
 				<div class='flex justify-between items-start gap-3'>
 					<h3 class='font-semibold text-base text-earth-900 dark:text-earth-100 leading-snug'>
 						<a
