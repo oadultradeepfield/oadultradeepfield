@@ -8,4 +8,4 @@ export interface Project {
 	stargazers_count?: number;
 }
 
-export const projects: Project[] = await getUserRepos('oadultradeepfield', 6);
+export const projects: Project[] = await getUserRepos('oadultradeepfield', 9);
